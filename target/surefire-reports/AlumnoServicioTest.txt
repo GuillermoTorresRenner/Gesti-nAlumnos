@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: AlumnoServicioTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.396 s <<< FAILURE! - in AlumnoServicioTest
+crearAlumnoTest  Time elapsed: 0.371 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <modelos.Alumno@4ce7fffa> but was: <null>
+	at AlumnoServicioTest.crearAlumnoTest(AlumnoServicioTest.java:40)
+
