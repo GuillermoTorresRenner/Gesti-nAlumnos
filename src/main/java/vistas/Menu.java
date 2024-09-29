@@ -15,7 +15,10 @@ public class Menu extends MenuTemplate {
 
 	@Override
 	public void exportarDatos() {
-		// archivoServicio.exportarDatos(alumnoServicio.listarAlumnos());
+		System.out.println("\n-------Exportar datos--------\n");
+		System.out.println("Ingresa la ruta donde deseas guardar el archivo: ");
+		String path = scanner.next();
+		archivoServicio.exportarDatos(alumnoServicio.listarAlumnos(), path);
 	}
 
 	@Override

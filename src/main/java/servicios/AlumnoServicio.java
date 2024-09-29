@@ -15,7 +15,6 @@ public class AlumnoServicio {
 
 	//Metodo para crear alumno
 	public void crearAlumno(Alumno alumno) {
-		System.out.println(alumno);
 		listaAlumnos.put(alumno.getRut(), alumno);
 	}
 

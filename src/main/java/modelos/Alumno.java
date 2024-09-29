@@ -60,14 +60,11 @@ public class Alumno {
     public void addMateria(Materia materias) {
       this.materias.add(materias);
     }
+
+	
     
     
 
-	@Override
-	public String toString() {
-		return "\nDatos del Alumno: \n\n" + "\tRut: " + rut + "\n" + "\tNombre: " + nombre + "\n" + "\tApellido: "
-				+ apellido + "\n" + "\tDireccion: " + direccion + "\n\n" + "\tMaterias: \n"
-				+ materias.stream().map(Materia::toString).collect(Collectors.joining("\n"));
-	}
+
 
 }
